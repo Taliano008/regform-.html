@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- <meta http-equiv="X-UA-Compatible" content="I{=edge"> -->
+        <!-- <meta name="viewpoint" content="width-device-width,
+        initial-scale = 1.0" -->
+        <link rel = "stylesheet" href = "styles.css">
+        <title> REGISTRATION FORM</title>
+
+    </head>
+    <body>
+        <!-- #container start -->
+        <div id = "container">
+            <div class = "form-wrap">
+                <h1>Sign Up</h1>
+                <p> It's free and only takes a minute</p>
+
+                <!-- // form start -->
+                <form action="connect.php" method ="post">  <!-- this connects this html code to php -->
+                   
+                    
+                    <div class = "form-group">
+                        <label for = "first-name"> First Name</label>
+                        <input type = "text" name  = "firstname" id = "first-name"></div>
+                    <div class = "form-group">
+                          <label for = "last-name"> Last Name</label>
+                          <input type = "text" name = "lastname" id = "last-name"></div>
+                    <div class = "form-group">
+                          <label for = "email"> Email</label>
+                          <input type = "email" name = "email" id = "email"></div>
+                    <div class = "form-group">
+                          <label for = "password"> Password</label>
+                          <input type = "password" name = "password" id = "password"></div>
+                    <div class = "form-group">
+                          <label for = "cpassword"> Confirm Password</label>
+                          <input type = "password " name = "cpassword" id = "cpassword"></div>
+    
+
+                </form>
+                <button type = 'submit'> Sign Up</button>
+                <p> By clicking up the Sign Up  button you agree to our<a href="#">
+                    Terms & condition</a> and <a href = "#" >privacy and policy</a></p>            
+    
+            </div>
+            <footer>
+                <p> Already Have an Account?<a href="#"> login here</a></p>
+            </footer>           
+        </div> 
+    </body>
+</html>
